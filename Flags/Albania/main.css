@@ -1,0 +1,18 @@
+*{
+    background-color: aliceblue;
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(209, 20, 20);
+    transform: translate(95%,70%);
+}
+
+.logo img{
+    height: 200px;
+    width: 200px;
+    transform: translateY(25%);
+    background-color: rgb(209, 20, 20);
+    place-items: center;
+}
