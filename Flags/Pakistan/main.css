@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    transform: translate(165%,100%);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: inline-flex;
+}
+
+.frame .white{
+    height: 200px;
+    width: 20%;
+}
+.frame .green{
+    height: 200px;
+    width: 80%;
+    background-color: green;
+}
+
+.frame .green .moon{
+    content: "";
+    position: absolute;
+    width: 110px;
+    aspect-ratio: 1;
+    border-radius: 1in;
+    left: 200px;
+    top: 20px;
+    box-shadow: -20px 20px white;
+}
+
+.frame .green .star{
+    content: "";
+    position: absolute;
+    width: 38px;
+    aspect-ratio: 1;
+    background-color: white;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+    left: 64%;
+    top: 31%;
+    transform: rotate(-23deg);
+}
