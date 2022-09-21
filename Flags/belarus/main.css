@@ -1,0 +1,30 @@
+.mainframe{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(196, 16, 16);
+    transform: translate(55%,40%);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.boxOutOne img{
+    height:400px;
+    width:20%;
+}
+
+.mainframe .boxOutSecond{
+    height: 400px;
+    width: 90%;
+    transform: translate(22%,-101%);
+}
+
+.mainframe .boxOutSecond .boxInnerFirst{
+    height: 280px;
+    width: inherit;
+    background-color: red;
+}
+
+.mainframe .boxOutSecond .boxInnerSecond{
+    height: 120px;
+    width: inherit;
+    background-color: green;
+}
